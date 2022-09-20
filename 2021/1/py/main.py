@@ -1,6 +1,5 @@
 print("Started")
 f = open('input.txt', 'r')
-method = f.read()
-a = method()
-print(a)
+read = f.read()
+print(read)
 print("Script Done")
