@@ -1,6 +1,6 @@
+import os
 print("Started")
-f = open('input.txt', 'r')
-read = f.readline()
-for i in read:
+with open("input.txt", 'r') as f:
+    read = f.readline
     print(read)
 print("Script")
