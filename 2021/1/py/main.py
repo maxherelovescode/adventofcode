@@ -1,5 +1,6 @@
 print("Started")
 f = open('input.txt', 'r')
-read = f.read()
-print(read)
+read = f.readline()
+for i in read:
+    print(read)
 print("Script")
